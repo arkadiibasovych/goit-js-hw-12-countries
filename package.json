@@ -7,11 +7,11 @@
     "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
     "build": "webpack --env.mode production --config ./webpack/config.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -r https://github.com/arkadiibasovych/goit-js-hw-12-countries"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arkadiibasovych/webpack-starter-kit.git"
+    "url": "git+https://github.com/arkadiibasovych/goit-js-hw-12-countries.git"
   },
   "keywords": [],
   "author": "Arkadii Basovych <arkadiybasovich@gmail.com>",
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/arkadiibasovych/webpack-starter-kit/issues"
   },
-  "homepage": "https://github.com/arkadiibasovych/goit-js-hw-10-food-service",
+  "homepage": "https://arkadiibasovych.github.io/goit-js-hw-12-countries",
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
@@ -51,6 +51,8 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "handlebars": "^4.7.6",
-    "uuid4": "^2.0.2"
+    "uuid4": "^2.0.2",
+    "lodash.debounce": "^4.0.8",
+    "n_": "^3.0.0"
   }
 }
