@@ -1,7 +1,8 @@
 
 
 const refs = {
-    articlesContainer: document.querySelector('.js-artciles'),
-    searchForm: document.querySelector('.js-search-form')
+    input : document.querySelector('.form-control'),
+    countriesList : document.querySelector('.countris-list'),
+    countryCard : document.querySelector('.country-card')
 };
 export default refs;

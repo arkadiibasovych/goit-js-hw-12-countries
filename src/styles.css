@@ -17,3 +17,33 @@ body {
    * CSS image reference example.
    */
 }
+
+.container {
+  margin-top: 50px;
+  width: 1200px;
+}
+
+.form-control {
+  width: 800px;
+}
+
+.country-card-container,
+.country-card-container-description-item {
+  display: flex;
+  align-items: center;
+}
+
+.country-card-container-description-item {
+  margin-bottom: 15px;
+
+  align-items: baseline;
+}
+
+.country-card-container-description-item-title,
+.country-card-container-description {
+  margin-right: 25px;
+}
+
+.languages {
+  margin-bottom: 15px;
+}
